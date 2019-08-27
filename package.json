@@ -1,0 +1,18 @@
+{
+  "name": "textpense",
+  "version": "0.0.1",
+  "description": "Dead-simple expense tracker in txt format",
+  "main": "index.ts",
+  "author": "Simon Knott <info@simonknott.de>",
+  "license": "MIT",
+  "bin": {
+    "textpense": "./index.ts"
+  },
+  "dependencies": {
+    "commander": "^3.0.0",
+    "excel4node": "^1.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.2"
+  }
+}
