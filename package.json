@@ -6,13 +6,10 @@
   "author": "Simon Knott <info@simonknott.de>",
   "license": "MIT",
   "bin": {
-    "textpense": "./index.ts"
+    "textpense": "./index.js"
   },
   "dependencies": {
     "commander": "^3.0.0",
     "excel4node": "^1.7.2"
-  },
-  "devDependencies": {
-    "@types/node": "^12.7.2"
   }
 }

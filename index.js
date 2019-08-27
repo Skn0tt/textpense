@@ -1,10 +1,13 @@
-#!/usr/bin/env ts-node
-import * as program from "commander";
-import * as fs from "fs";
-import * as xl from "excel4node";
+#!/usr/bin/env node
+const program = require("commander");
+const fs = require("fs");
+const xl = require("excel4node");
 const pack = require("./package");
 
-let file: string;
+/**
+ * @type {string}
+ */
+let file;
 
 program
   .version(pack.version)
