@@ -2,7 +2,7 @@
   "name": "textpense",
   "version": "0.0.1",
   "description": "Dead-simple expense tracker in txt format",
-  "main": "index.ts",
+  "main": "index.js",
   "author": "Simon Knott <info@simonknott.de>",
   "license": "MIT",
   "bin": {
