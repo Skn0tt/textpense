@@ -1,6 +1,6 @@
 {
   "name": "textpense",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Dead-simple expense tracker in txt format",
   "main": "index.js",
   "author": "Simon Knott <info@simonknott.de>",
